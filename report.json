@@ -1,0 +1,35 @@
+[
+  {
+    "file": "example_com.html",
+    "issues": [],
+    "issueCount": 0
+  },
+  {
+    "file": "forwardnetworks_com.html",
+    "issues": [
+      "This sentence does not start with an uppercase letter. → “impact”",
+      "It seems like there are too many consecutive spaces here. → “”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Forward”",
+      "Did you mean “your”? → “you”",
+      "Possible typo: you repeated a word. → “forward\nForward”",
+      "Possible spelling mistake found. → “gartner”",
+      "This sentence does not start with an uppercase letter. → “platform”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Gain”",
+      "It seems like there are too many consecutive spaces here. → “”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Explore”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Inventory”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Gain”",
+      "Possible typo: you repeated a word. → “resources\nresources”",
+      "Possible spelling mistake found. → “whitepapers”",
+      "Possible spelling mistake found. → “ebooks”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Talk”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Read”",
+      "Possible spelling mistake found. → “NQE”",
+      "This sentence does not start with an uppercase letter. → “additional”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Join”",
+      "Possible spelling mistake found. → “issuse”"
+    ],
+    "issueCount": 22
+  }
+]
