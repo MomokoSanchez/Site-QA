@@ -45,7 +45,7 @@ After cleaning the cache and reinstalling, re-run the pipeline:
 
 ```bash
 npm run start      # crawl → checks → build UI
-
+```
 ---
 
 Report written to report.json
