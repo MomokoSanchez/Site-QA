@@ -2,20 +2,6 @@
   {
     "file": "header/www_forwardnetworks_com.txt",
     "issues": [
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
-      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
-      "Possible spelling mistake found. → “whitepapers”",
-      "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “NQE”",
-      "Possible spelling mistake found. → “Twin eBook”"
-    ],
-    "issueCount": 8
-  },
-  {
-    "file": "header/www_forwardnetworks_com_technology_.txt",
-    "issues": [
       "Possible missing preposition found. → “Digital”",
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
@@ -23,10 +9,22 @@
       "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “NQE”",
       "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 9
+    "issueCount": 8
+  },
+  {
+    "file": "header/www_forwardnetworks_com_technology_.txt",
+    "issues": [
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
+      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
+      "Possible spelling mistake found. → “whitepapers”",
+      "Possible spelling mistake found. → “ebooks”",
+      "Possible spelling mistake found. → “Twin eBook”"
+    ],
+    "issueCount": 7
   },
   {
     "file": "header/www_forwardnetworks_com_why_forward_.txt",
@@ -37,10 +35,9 @@
       "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “NQE”",
       "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 8
+    "issueCount": 7
   },
   {
     "file": "content/www_forwardnetworks_com.txt",
@@ -61,24 +58,22 @@
       "Possible spelling mistake found. → “SCALABILTY”",
       "Possible spelling mistake found. → “Ganjisaffar”",
       "Consider removing “of” to be more concise → “all of the”",
-      "Possible spelling mistake found. → “NQE”",
-      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
-      "Possible spelling mistake found. → “NQE”"
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”"
     ],
-    "issueCount": 8
+    "issueCount": 6
   },
   {
     "file": "content/www_forwardnetworks_com_why_forward_.txt",
     "issues": [
+      "Possible missing preposition found. → “THE”",
       "Possible spelling mistake found. → “SCALABILTY”",
       "Possible spelling mistake found. → “ebook”",
+      "Possible missing comma found. → “settings”",
       "Possible spelling mistake found. → “whitepaper”",
       "Consider removing “of” to be more concise → “all of the”",
-      "Possible spelling mistake found. → “NQE”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
-      "Possible spelling mistake found. → “NQE”",
+      "Possible missing comma found. → “settings”",
       "Possible spelling mistake found. → “equivilent”",
-      "Possible spelling mistake found. → “NQE”",
       "Unpaired symbol: ‘”’ seems to be missing → ““”",
       "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
     ],
