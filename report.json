@@ -1,19 +1,5 @@
 [
   {
-    "file": "header/forwardnetworks_com.txt",
-    "issues": [
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
-      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
-      "Possible spelling mistake found. → “whitepapers”",
-      "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “NQE”",
-      "Possible spelling mistake found. → “Twin eBook”"
-    ],
-    "issueCount": 8
-  },
-  {
     "file": "header/www_forwardnetworks_com.txt",
     "issues": [
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
@@ -57,17 +43,6 @@
     "issueCount": 8
   },
   {
-    "file": "content/forwardnetworks_com.txt",
-    "issues": [
-      "Possible spelling mistake found. → “utomation”",
-      "Possible spelling mistake found. → “ero”",
-      "Possible typo: you repeated a word. → “Explore\nExplore”",
-      "Possible typo: you repeated a word. → “Evaluate\nEvaluate”",
-      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Read”"
-    ],
-    "issueCount": 5
-  },
-  {
     "file": "content/www_forwardnetworks_com.txt",
     "issues": [
       "Possible spelling mistake found. → “utomation”",
@@ -108,14 +83,6 @@
       "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
     ],
     "issueCount": 11
-  },
-  {
-    "file": "footer/forwardnetworks_com.txt",
-    "issues": [
-      "Possible typo: you repeated a whitespace → “”",
-      "Possible typo: you repeated a whitespace → “”"
-    ],
-    "issueCount": 2
   },
   {
     "file": "footer/www_forwardnetworks_com.txt",

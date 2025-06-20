@@ -1,6 +1,8 @@
 node_modules
 dist
 .env
-/playwright*
 /text
 /tmp
+/text/content
+/text/footer
+/text/header

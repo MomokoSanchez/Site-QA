@@ -1,10 +1,6 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import sitemapsPkg from 'sitemaps';
-import fetch from 'node-fetch';
-
-const { SitemapStream, parseSitemaps } = sitemapsPkg;
 
 const htmlOutDir = 'tmp/html';
 const textBaseDir = 'text';
@@ -13,6 +9,23 @@ const textDirs = {
   content: path.join(textBaseDir, 'content'),
   footer: path.join(textBaseDir, 'footer'),
 };
+
+// Clean up existing output folders
+async function emptyFolder(dir) {
+  try {
+    const entries = await fs.readdir(dir);
+    for (const entry of entries) {
+      await fs.rm(path.join(dir, entry), { recursive: true, force: true });
+    }
+  } catch (e) {
+    // Folder might not exist yet — ignore
+  }
+}
+
+await emptyFolder('tmp/html');
+await emptyFolder('text/header');
+await emptyFolder('text/content');
+await emptyFolder('text/footer');
 
 // Ensure all folders exist
 await fs.mkdir(htmlOutDir, { recursive: true });
