@@ -2,6 +2,13 @@
 async function main() {
   const data = await (await fetch('report.json')).json();
 
+  function renderIssues(section) {
+    if (!section) return 'Missing';
+    return section.issues.length
+      ? `<ul>${section.issues.map(i => `<li>${i}</li>`).join('')}</ul>`
+      : '0';
+  }
+
   // Group entries by slug (remove .txt and folder prefix)
   const grouped = {};
   for (const r of data) {
@@ -15,25 +22,26 @@ async function main() {
     grouped[slug][folder] = r;
   }
 
-
-  const rows = Object.entries(grouped).map(([slug, parts]) => {
-    return `
-      <tr><td colspan="2" style="font-weight:bold; background:#eee;">${slug}</td></tr>
-      ${['header', 'content', 'footer'].map(part => {
-        const file = parts[part];
-        return file ? `
-          <tr>
-            <td style="vertical-align:top;">${part.toUpperCase()}</td>
-            <td>
-              ${file.issues.length
-                ? `<ul>${file.issues.map(i => `<li>${i}</li>`).join('')}</ul>`
-                : '0'}
-            </td>
-          </tr>
-        ` : '';
-      }).join('')}
+  if (data.length === 1 && data[0].file === 'ERROR') {
+    document.getElementById('root').innerHTML = `
+      <div style="color: red; font-weight: bold;">${data[0].issues[0]}</div>
     `;
-  }).join('');
+    return;
+  }
+
+  const rows = [
+    '<tr><td style="font-weight:bold;">HEADER</td><td>' +
+      renderIssues(grouped[Object.keys(grouped)[0]]?.header) + '</td></tr>',
+    ...Object.entries(grouped).map(([slug, parts]) =>
+      `<tr>
+        <td><a href="https://${slug.replace(/_/g, '/').replace(/^([^\/]+)\//, '$1.')}">${slug.replace(/_/g, '/')}</a></td>
+        <td>${renderIssues(parts.content)}</td>
+      </tr>
+      `
+    ),
+    '<tr><td style="font-weight:bold;">FOOTER</td><td>' +
+      renderIssues(grouped[Object.keys(grouped)[0]]?.footer) + '</td></tr>'
+  ].join('');
 
   document.getElementById('root').innerHTML = `
     <table>

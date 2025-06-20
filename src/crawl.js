@@ -5,7 +5,6 @@ import sitemapsPkg from 'sitemaps';
 import fetch from 'node-fetch';
 
 const { SitemapStream, parseSitemaps } = sitemapsPkg;
-const seed = process.env.SEED_URL || 'https://forwardnetworks.com';
 
 const htmlOutDir = 'tmp/html';
 const textBaseDir = 'text';
@@ -24,13 +23,27 @@ for (const dir of Object.values(textDirs)) {
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
 
-const toVisit = new Set([seed]);
-const visited = new Set();
+// Load URLs from urls.txt
+const urlFilePath = path.resolve('urls.txt');
+const urlFile = await fs.readFile(urlFilePath, 'utf8');
+const urls = urlFile.split('\n').map(u => u.trim()).filter(Boolean);
+const toVisit = new Set(urls);
+
+// Enforce single-domain constraint
+const origins = new Set(urls.map(u => new URL(u).origin));
+if (origins.size > 1) {
+  const msg = `❌ Error: Multiple domains detected in urls.txt:\n${[...origins].join('\n')}`;
+  console.error(msg);
+
+  // Write report for the browser to display the error
+  await fs.writeFile('report.json', JSON.stringify([{ file: 'ERROR', issues: [msg] }], null, 2));
+  process.exit(1);
+}
+
 
 while (toVisit.size) {
   const url = toVisit.values().next().value;
   toVisit.delete(url);
-  visited.add(url);
 
   console.log('▶', url);
   await page.goto(url, { waitUntil: 'networkidle' });
@@ -65,11 +78,6 @@ while (toVisit.size) {
   await fs.writeFile(path.join(textDirs.header, slug + '.txt'), header);
   await fs.writeFile(path.join(textDirs.content, slug + '.txt'), content);
   await fs.writeFile(path.join(textDirs.footer, slug + '.txt'), footer);
-
-  const links = await page.$$eval('a[href^="http"]', els => els.map(a => a.href));
-  links.forEach(l => {
-    if (l.startsWith(seed) && !visited.has(l)) toVisit.add(l);
-  });
 }
 
 await browser.close();
