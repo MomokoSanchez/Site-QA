@@ -2,43 +2,38 @@ name: Nightly QA
 
 on:
   schedule:
-    - cron: '0 6 * * *'    # 06:00 UTC  (midnight MDT)
-  workflow_dispatch:        # enable manual “Run workflow” button
+    # 06:00 UTC (midnight MDT)
+    - cron: '0 6 * * *'
+  workflow_dispatch:        # manual button
 
 jobs:
   qa:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Get the code
+      # 1  Checkout repo
       - uses: actions/checkout@v4
 
-      # 2. Node + dependencies
+      # 2  Node 20 + deps
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: npm ci
 
-      # 3. Download Playwright's browser binary (Chromium) + required libs
+      # 3  OFFICIAL Playwright action – installs Chromium & deps, caches layers
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
+        uses: microsoft/playwright-github-action@v1
+        with:
+          browsers: 'chromium'          # only what we need
 
-      # 4. Crawl, analyse, build dashboard
+      # 4  Crawl, analyse, build
       - run: node src/crawl.js
       - run: node src/checks.js
       - run: node src/report-ui/build.js
 
-      # 5. Publish /dist to GitHub Pages
+      # 5  Publish /dist to GitHub Pages
       - name: Publish report
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      # 6. (Optional) Slack digest
-      # - name: Slack QA summary
-      #   if: success()
-      #   run: |
-      #     curl -X POST -H 'Content-type: application/json' \
-      #       --data "{\"text\":\"Nightly QA: $(jq '.|length' report.json) pages scanned – https://<org>.github.io/<repo>/\"}" \
-      #       ${{ secrets.SLACK_WEBHOOK_URL }}
