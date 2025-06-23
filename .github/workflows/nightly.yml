@@ -2,36 +2,33 @@ name: Nightly QA
 
 on:
   schedule:
-    # 06:00 UTC (midnight MDT)
-    - cron: '0 6 * * *'
-  workflow_dispatch:        # manual button
+    - cron: '0 6 * * *'          # 06:00 UTC every day
+  workflow_dispatch:              # manual run button
 
 jobs:
   qa:
     runs-on: ubuntu-latest
 
     steps:
-      # 1  Checkout repo
+      # 1. Checkout
       - uses: actions/checkout@v4
 
-      # 2  Node 20 + deps
+      # 2. Node + deps
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: npm ci
 
-      # 3  OFFICIAL Playwright action – installs Chromium & deps, caches layers
-      - name: Install Playwright browsers
-        uses: microsoft/playwright-github-action@v1
-        with:
-          browsers: 'chromium'          # only what we need
+      # 3. Download Playwright’s Chromium (no install-deps)
+      - name: Download Playwright Chromium
+        run: npx playwright install chromium
 
-      # 4  Crawl, analyse, build
+      # 4. Crawl, analyse, build dashboard
       - run: node src/crawl.js
       - run: node src/checks.js
       - run: node src/report-ui/build.js
 
-      # 5  Publish /dist to GitHub Pages
+      # 5. Publish to GitHub Pages
       - name: Publish report
         uses: peaceiris/actions-gh-pages@v4
         with:
