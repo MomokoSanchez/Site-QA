@@ -1,0 +1,101 @@
+[
+  {
+    "file": "header/www_forwardnetworks_com.txt",
+    "issues": [
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
+      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
+      "Possible spelling mistake found. → “whitepapers”",
+      "Possible spelling mistake found. → “ebooks”",
+      "Possible spelling mistake found. → “Twin eBook”"
+    ],
+    "issueCount": 7
+  },
+  {
+    "file": "header/www_forwardnetworks_com_technology_.txt",
+    "issues": [
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
+      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
+      "Possible spelling mistake found. → “whitepapers”",
+      "Possible spelling mistake found. → “ebooks”",
+      "Possible spelling mistake found. → “Twin eBook”"
+    ],
+    "issueCount": 7
+  },
+  {
+    "file": "header/www_forwardnetworks_com_why_forward_.txt",
+    "issues": [
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “FORWARD\nForward”",
+      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
+      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
+      "Possible spelling mistake found. → “whitepapers”",
+      "Possible spelling mistake found. → “ebooks”",
+      "Possible spelling mistake found. → “Twin eBook”"
+    ],
+    "issueCount": 7
+  },
+  {
+    "file": "content/www_forwardnetworks_com.txt",
+    "issues": [
+      "Possible spelling mistake found. → “utomation”",
+      "Possible spelling mistake found. → “ero”",
+      "Possible typo: you repeated a word. → “Explore\nExplore”",
+      "Possible typo: you repeated a word. → “Evaluate\nEvaluate”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Read”"
+    ],
+    "issueCount": 5
+  },
+  {
+    "file": "content/www_forwardnetworks_com_technology_.txt",
+    "issues": [
+      "Possible spelling mistake found. → “ebook”",
+      "Possible spelling mistake found. → “whitepaper”",
+      "Possible spelling mistake found. → “SCALABILTY”",
+      "Consider removing “of” to be more concise → “all of the”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”"
+    ],
+    "issueCount": 5
+  },
+  {
+    "file": "content/www_forwardnetworks_com_why_forward_.txt",
+    "issues": [
+      "Possible spelling mistake found. → “SCALABILTY”",
+      "Possible spelling mistake found. → “ebook”",
+      "Possible spelling mistake found. → “whitepaper”",
+      "Consider removing “of” to be more concise → “all of the”",
+      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
+      "Possible spelling mistake found. → “equivilent”",
+      "Unpaired symbol: ‘”’ seems to be missing → ““”",
+      "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
+    ],
+    "issueCount": 8
+  },
+  {
+    "file": "footer/www_forwardnetworks_com.txt",
+    "issues": [
+      "Possible typo: you repeated a whitespace → “”",
+      "Possible typo: you repeated a whitespace → “”"
+    ],
+    "issueCount": 2
+  },
+  {
+    "file": "footer/www_forwardnetworks_com_technology_.txt",
+    "issues": [
+      "Possible typo: you repeated a whitespace → “”",
+      "Possible typo: you repeated a whitespace → “”"
+    ],
+    "issueCount": 2
+  },
+  {
+    "file": "footer/www_forwardnetworks_com_why_forward_.txt",
+    "issues": [
+      "Possible typo: you repeated a whitespace → “”",
+      "Possible typo: you repeated a whitespace → “”"
+    ],
+    "issueCount": 2
+  }
+]
