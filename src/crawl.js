@@ -48,11 +48,12 @@ if (origins.size > 1) {
   const msg = `❌ Error: Multiple domains detected in urls.txt:\n${[...origins].join('\n')}`;
   console.error(msg);
 
-  // Write report for the browser to display the error
   await fs.writeFile('report.json', JSON.stringify([{ file: 'ERROR', issues: [msg] }], null, 2));
   process.exit(1);
 }
 
+// Track which domains we've already saved header/footer for
+const savedDomains = new Set();
 
 while (toVisit.size) {
   const url = toVisit.values().next().value;
@@ -66,31 +67,44 @@ while (toVisit.size) {
 
   await fs.writeFile(path.join(htmlOutDir, slug + '.html'), html);
 
-  // Extract separate text parts
+  // Extract separate text parts with heading newline logic
   const { header, content, footer } = await page.evaluate(() => {
     const getText = el => el?.innerText?.trim() || '';
 
     const headerText = getText(document.querySelector('header'));
     const footerText = getText(document.querySelector('footer'));
 
-    // Temporarily hide header/footer for "content" extraction
     const headerEl = document.querySelector('header');
     const footerEl = document.querySelector('footer');
     if (headerEl) headerEl.style.display = 'none';
     if (footerEl) footerEl.style.display = 'none';
 
+    // Insert real newline characters before and after headings
+    document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(el => {
+      el.parentNode.insertBefore(document.createTextNode('\n'), el);
+      el.parentNode.insertBefore(document.createTextNode('\n'), el.nextSibling);
+    });
+
     const contentText = document.body.innerText.trim();
 
-    // Restore visibility (not strictly necessary in headless, but clean)
     if (headerEl) headerEl.style.display = '';
     if (footerEl) footerEl.style.display = '';
 
     return { header: headerText, content: contentText, footer: footerText };
   });
 
-  await fs.writeFile(path.join(textDirs.header, slug + '.txt'), header);
+  // Save content file for this page
   await fs.writeFile(path.join(textDirs.content, slug + '.txt'), content);
-  await fs.writeFile(path.join(textDirs.footer, slug + '.txt'), footer);
+
+  // Save header/footer once per domain (e.g., forwardnetworks_com)
+  const domainMatch = slug.match(/^([a-z0-9]+_[a-z0-9]+)/);
+  const domain = domainMatch ? domainMatch[1] : slug;
+
+  if (!savedDomains.has(domain)) {
+    await fs.writeFile(path.join(textDirs.header, domain + '.txt'), header);
+    await fs.writeFile(path.join(textDirs.footer, domain + '.txt'), footer);
+    savedDomains.add(domain);
+  }
 }
 
 await browser.close();

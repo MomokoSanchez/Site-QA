@@ -1,20 +1,6 @@
 [
   {
-    "file": "header/www_forwardnetworks_com.txt",
-    "issues": [
-      "Possible missing preposition found. → “Digital”",
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
-      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
-      "Possible spelling mistake found. → “whitepapers”",
-      "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “Twin eBook”"
-    ],
-    "issueCount": 8
-  },
-  {
-    "file": "header/www_forwardnetworks_com_technology_.txt",
+    "file": "header/www_forwardnetworks.txt",
     "issues": [
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
@@ -27,20 +13,7 @@
     "issueCount": 7
   },
   {
-    "file": "header/www_forwardnetworks_com_why_forward_.txt",
-    "issues": [
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “FORWARD\nForward”",
-      "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
-      "Possible typo: you repeated a word. → “Resources\nRESOURCES”",
-      "Possible spelling mistake found. → “whitepapers”",
-      "Possible spelling mistake found. → “ebooks”",
-      "Possible spelling mistake found. → “Twin eBook”"
-    ],
-    "issueCount": 7
-  },
-  {
-    "file": "content/www_forwardnetworks_com.txt",
+    "file": "content/www_forwardnetworks_com_.txt",
     "issues": [
       "Possible spelling mistake found. → “utomation”",
       "Possible spelling mistake found. → “ero”",
@@ -51,52 +24,27 @@
     "issueCount": 5
   },
   {
-    "file": "content/www_forwardnetworks_com_technology_.txt",
+    "file": "content/www_forwardnetworks_com_events_cisco_live_.txt",
     "issues": [
-      "Possible spelling mistake found. → “ebook”",
-      "Possible spelling mistake found. → “whitepaper”",
-      "Possible spelling mistake found. → “SCALABILTY”",
-      "Possible spelling mistake found. → “Ganjisaffar”",
-      "Consider removing “of” to be more concise → “all of the”",
-      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”"
+      "Possible spelling mistake found. → “Untroubleshootable”",
+      "Possible spelling mistake found. → “cutomers”",
+      "Possible spelling mistake found. → “whitepaper”"
     ],
-    "issueCount": 6
+    "issueCount": 3
   },
   {
-    "file": "content/www_forwardnetworks_com_why_forward_.txt",
+    "file": "content/www_forwardnetworks_com_leverage_network_digital_twins_to_increase_agility_and_lower_risk_.txt",
     "issues": [
-      "Possible missing preposition found. → “THE”",
-      "Possible spelling mistake found. → “SCALABILTY”",
-      "Possible spelling mistake found. → “ebook”",
-      "Possible missing comma found. → “settings”",
-      "Possible spelling mistake found. → “whitepaper”",
-      "Consider removing “of” to be more concise → “all of the”",
-      "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
-      "Possible missing comma found. → “settings”",
-      "Possible spelling mistake found. → “equivilent”",
-      "Unpaired symbol: ‘”’ seems to be missing → ““”",
-      "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
+      "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Gartner”",
+      "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
+      "Possible typo: you repeated a word. → “Netherlands\nNetherlands”",
+      "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”",
+      "Use a comma before ‘and’ if it connects two independent clauses (unless they are closely connected and short). → “and”"
     ],
-    "issueCount": 11
+    "issueCount": 5
   },
   {
-    "file": "footer/www_forwardnetworks_com.txt",
-    "issues": [
-      "Possible typo: you repeated a whitespace → “”",
-      "Possible typo: you repeated a whitespace → “”"
-    ],
-    "issueCount": 2
-  },
-  {
-    "file": "footer/www_forwardnetworks_com_technology_.txt",
-    "issues": [
-      "Possible typo: you repeated a whitespace → “”",
-      "Possible typo: you repeated a whitespace → “”"
-    ],
-    "issueCount": 2
-  },
-  {
-    "file": "footer/www_forwardnetworks_com_why_forward_.txt",
+    "file": "footer/www_forwardnetworks.txt",
     "issues": [
       "Possible typo: you repeated a whitespace → “”",
       "Possible typo: you repeated a whitespace → “”"

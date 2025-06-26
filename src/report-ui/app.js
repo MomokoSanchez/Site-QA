@@ -9,6 +9,10 @@ async function main() {
       : '0';
   }
 
+  function countIssues(section) {
+    return section?.issues?.length || 0;
+  }
+
   // Group entries by slug (remove .txt and folder prefix)
   const grouped = {};
   for (const r of data) {
@@ -29,31 +33,41 @@ async function main() {
     return;
   }
 
-  const rows = [
-    '<tr><td style="font-weight:bold;">HEADER</td><td>' +
-      renderIssues(grouped[Object.keys(grouped)[0]]?.header) + '</td></tr>',
-    ...Object.entries(grouped).map(([slug, parts]) =>
-      `<tr>
-        <td><a href="https://${slug.replace(/_/g, '/').replace(/^([^\/]+)\//, '$1.')}">${slug.replace(/_/g, '/')}</a></td>
-        <td>${renderIssues(parts.content)}</td>
-      </tr>
-      `
-    ),
-    '<tr><td style="font-weight:bold;">FOOTER</td><td>' +
-      renderIssues(grouped[Object.keys(grouped)[0]]?.footer) + '</td></tr>'
-  ].join('');
+  const totalWarnings = data.reduce((sum, r) => sum + (r.issues?.length || 0), 0);
+  const totalPages = Object.keys(grouped).length;
 
-  document.getElementById('root').innerHTML = `
-    <table>
-      <thead>
-        <tr><th>Section</th><th>Issues (message → excerpt)</th></tr>
-      </thead>
-      <tbody>${rows}</tbody>
+  const root = document.getElementById('root');
+  root.innerHTML = `<p>There are ${totalWarnings} warnings on ${totalPages} pages.</p>`;
+
+  const rows = [
+    '<tr><th>Slug</th><th>Warnings</th><th>Issues</th></tr>'
+  ];
+
+  // Add HEADER row
+  const headerRow = grouped[Object.keys(grouped)[0]]?.header;
+  rows.push(
+    `<tr><td style="font-weight:bold;">HEADER</td><td>${countIssues(headerRow)} warning${countIssues(headerRow) !== 1 ? 's' : ''}</td><td>${renderIssues(headerRow)}</td></tr>`
+  );
+
+  // Add content rows (one per slug)
+  for (const slug of Object.keys(grouped)) {
+    const content = grouped[slug].content;
+    rows.push(
+      `<tr><td>${slug}</td><td>${countIssues(content)} warning${countIssues(content) !== 1 ? 's' : ''}</td><td>${renderIssues(content)}</td></tr>`
+    );
+  }
+
+  // Add FOOTER row
+  const footerRow = grouped[Object.keys(grouped)[0]]?.footer;
+  rows.push(
+    `<tr><td style="font-weight:bold;">FOOTER</td><td>${countIssues(footerRow)} warning${countIssues(footerRow) !== 1 ? 's' : ''}</td><td>${renderIssues(footerRow)}</td></tr>`
+  );
+
+  root.innerHTML += `
+    <table class="table">
+      ${rows.join('\n')}
     </table>
   `;
 }
 
-main().catch(err => {
-  document.getElementById('root').textContent =
-    'Failed to load report.json – ' + err.message;
-});
+main();
