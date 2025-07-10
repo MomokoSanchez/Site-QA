@@ -1,6 +1,9 @@
 // src/report-ui/app.js
 async function main() {
-  const data = await (await fetch('report.json')).json();
+  // ——— point at the generated JSON (move report.json into this dir or adjust path) ———
+  const res = await fetch('../report.json');
+  if (!res.ok) throw new Error(`Unable to load report.json (${res.status})`);
+  const data = await res.json();
 
   function renderIssues(section) {
     if (!section) return 'Missing';
@@ -13,61 +16,74 @@ async function main() {
     return section?.issues?.length || 0;
   }
 
-  // Group entries by slug (remove .txt and folder prefix)
+  // group by filename (strip folder)
   const grouped = {};
   for (const r of data) {
-    if (!r.file || !r.file.includes('/')) continue; // skip malformed entries
-
+    if (!r.file?.includes('/')) continue;
     const [folder, name] = r.file.split('/');
-    if (!folder || !name) continue;
-
-    const slug = name.replace(/\.txt$/, '');
-    if (!grouped[slug]) grouped[slug] = {};
-    grouped[slug][folder] = r;
+    if (!grouped[name]) grouped[name] = {};
+    grouped[name][folder] = r;
   }
 
+  // handle a single ERROR entry
   if (data.length === 1 && data[0].file === 'ERROR') {
     document.getElementById('root').innerHTML = `
-      <div style="color: red; font-weight: bold;">${data[0].issues[0]}</div>
-    `;
+      <div style="color:red; font-weight:bold;">
+        ${data[0].issues[0]}
+      </div>`;
     return;
   }
 
   const totalWarnings = data.reduce((sum, r) => sum + (r.issues?.length || 0), 0);
-  const totalPages = Object.keys(grouped).length;
+  const totalPages    = Object.keys(grouped).length;
 
   const root = document.getElementById('root');
   root.innerHTML = `<p>There are ${totalWarnings} warnings on ${totalPages} pages.</p>`;
 
   const rows = [
-    '<tr><th>Slug</th><th>Warnings</th><th>Issues</th></tr>'
+    '<tr><th>URL</th><th>Warnings</th><th>Issues</th></tr>'
   ];
 
-  // Add HEADER row
-  const headerRow = grouped[Object.keys(grouped)[0]]?.header;
-  rows.push(
-    `<tr><td style="font-weight:bold;">HEADER</td><td>${countIssues(headerRow)} warning${countIssues(headerRow) !== 1 ? 's' : ''}</td><td>${renderIssues(headerRow)}</td></tr>`
-  );
+  const firstKey = Object.keys(grouped)[0];
 
-  // Add content rows (one per slug)
-  for (const slug of Object.keys(grouped)) {
-    const content = grouped[slug].content;
-    rows.push(
-      `<tr><td>${slug}</td><td>${countIssues(content)} warning${countIssues(content) !== 1 ? 's' : ''}</td><td>${renderIssues(content)}</td></tr>`
-    );
+  // HEADER
+  const headerRow = grouped[firstKey].header;
+  rows.push(`
+    <tr>
+      <td style="font-weight:bold;">HEADER</td>
+      <td>${countIssues(headerRow)} warning${countIssues(headerRow)!==1?'s':''}</td>
+      <td>${renderIssues(headerRow)}</td>
+    </tr>`);
+
+  // CONTENT
+  for (const name of Object.keys(grouped)) {
+    const section = grouped[name].content;
+    const displayURL = section?.url || name.replace(/\.txt$/, '').replace(/_/g, '.');
+    rows.push(`
+      <tr>
+        <td>${displayURL}</td>
+        <td>${countIssues(section)} warning${countIssues(section)!==1?'s':''}</td>
+        <td>${renderIssues(section)}</td>
+      </tr>`);
   }
 
-  // Add FOOTER row
-  const footerRow = grouped[Object.keys(grouped)[0]]?.footer;
-  rows.push(
-    `<tr><td style="font-weight:bold;">FOOTER</td><td>${countIssues(footerRow)} warning${countIssues(footerRow) !== 1 ? 's' : ''}</td><td>${renderIssues(footerRow)}</td></tr>`
-  );
+  // FOOTER
+  const footerRow = grouped[firstKey].footer;
+  rows.push(`
+    <tr>
+      <td style="font-weight:bold;">FOOTER</td>
+      <td>${countIssues(footerRow)} warning${countIssues(footerRow)!==1?'s':''}</td>
+      <td>${renderIssues(footerRow)}</td>
+    </tr>`);
 
   root.innerHTML += `
     <table class="table">
       ${rows.join('\n')}
-    </table>
-  `;
+    </table>`;
 }
 
-main();
+main().catch(err => {
+  console.error(err);
+  document.getElementById('root').innerHTML =
+    `<div style="color:red;">${err.message}</div>`;
+});
