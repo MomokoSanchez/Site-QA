@@ -4,9 +4,26 @@
   <meta charset="UTF-8">
   <title>Site QA Report</title>
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; }
-    table { border-collapse: collapse; width: 100%; }
+    body { 
+      font-family: system-ui, sans-serif; 
+      margin: 2rem; 
+      background: #f7f7f7;
+    }
+    table { 
+      background: white;
+      border-collapse: collapse; 
+      width: 90vw;
+      table-layout: fixed;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
     th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    table th:nth-child(2), table td:nth-child(2) {
+      width: 200px;
+    }
+    table th:nth-child(1), table td:nth-child(1) {
+      width: 400px;
+    }
     mark { background: #ff0; }
   </style>
 </head>
