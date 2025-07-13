@@ -1,7 +1,7 @@
 // src/report-ui/app.js
 async function main() {
   // ——— point at the generated JSON (move report.json into this dir or adjust path) ———
-  const res = await fetch('../report.json');
+  const res = await fetch('report.json');
   if (!res.ok) throw new Error(`Unable to load report.json (${res.status})`);
   const data = await res.json();
 
