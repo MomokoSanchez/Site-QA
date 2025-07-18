@@ -6,8 +6,9 @@
   "scripts": {
     "crawl": "node src/crawl.js",
     "check": "node src/checks.js",
+    "slack": "node src/slack-report.js",
     "build-ui": "node src/report-ui/build.js",
-    "start": "npm-run-all crawl check build-ui",
+    "start": "npm-run-all crawl check slack build-ui",
     "lint": "echo \"Add lint script if desired\""
   },
   "dependencies": {

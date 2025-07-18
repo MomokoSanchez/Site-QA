@@ -8,6 +8,8 @@ on:
 jobs:
   qa:
     runs-on: ubuntu-latest
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
     steps:
       # 1. Checkout
@@ -26,6 +28,7 @@ jobs:
       # 4. Crawl, analyse, build dashboard
       - run: node src/crawl.js
       - run: node src/checks.js
+      - run: node src/slack-report.js
       - run: node src/report-ui/build.js
 
       # 5. Publish to GitHub Pages
