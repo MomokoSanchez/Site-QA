@@ -58,6 +58,7 @@ async function main() {
   // CONTENT
   for (const name of Object.keys(grouped)) {
     const section = grouped[name].content;
+    if (!section) continue;
     const displayURL = section?.url || name.replace(/\.txt$/, '').replace(/_/g, '.');
     rows.push(`
       <tr>
