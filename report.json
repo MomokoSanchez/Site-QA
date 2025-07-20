@@ -3,6 +3,7 @@
     "file": "header/www_forwardnetworks.txt",
     "url": "https://www.forwardnetworks",
     "issues": [
+      "Possible missing preposition found. → “Digital”",
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
       "Possible typo: you repeated a word. → “FORWARD\nForward”",
       "Possible typo: you repeated a word. → “Solutions\nSOLUTIONS”",
@@ -10,7 +11,7 @@
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 6
+    "issueCount": 7
   },
   {
     "file": "content/www_forwardnetworks_com_.txt",
@@ -44,23 +45,26 @@
     "issues": [
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Join”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Read”",
+      "Possible missing comma found. → “settings”",
+      "Possible missing comma found. → “settings”",
       "Unpaired symbol: ‘”’ seems to be missing → ““”",
       "Unpaired symbol: ‘\"’ seems to be missing → “\"”",
       "Possible spelling mistake found. → “Libary”"
     ],
-    "issueCount": 5
+    "issueCount": 7
   },
   {
     "file": "content/www_forwardnetworks_com_ai_.txt",
     "url": "https://www.forwardnetworks.com/ai",
     "issues": [
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Chat”",
+      "Possible missing comma found. → “settings”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Explore”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Harm”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Have”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Ready”"
     ],
-    "issueCount": 5
+    "issueCount": 6
   },
   {
     "file": "content/www_forwardnetworks_com_an_intuitive_approach_to_visualizing_monitoring_and_verifying_your_multi_cloud_estate_in_a_single_pane_of_glass_.txt",
@@ -75,9 +79,11 @@
     "file": "content/www_forwardnetworks_com_arista_cloudvision_and_forward_networks_brief_.txt",
     "url": "https://www.forwardnetworks.com/arista-cloudvision-and-forward-networks-brief",
     "issues": [
-      "Do not mix variants of the same word (‘analyze’ and ‘analyse’) within a single text. → “analyze”"
+      "Possible missing comma found. → “behavior”",
+      "Do not mix variants of the same word (‘analyze’ and ‘analyse’) within a single text. → “analyze”",
+      "Possible missing comma found. → “Enterprise”"
     ],
-    "issueCount": 1
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_automated_secure_application_provisioning_.txt",
@@ -90,17 +96,18 @@
   {
     "file": "content/www_forwardnetworks_com_automating_security_for_cloud_application_provisioning_.txt",
     "url": "https://www.forwardnetworks.com/automating-security-for-cloud-application-provisioning",
-    "issues": [],
-    "issueCount": 0
+    "issues": [
+      "Possible missing comma found. → “check”"
+    ],
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_avoid_costly_inter_cloud_routing_mistakes_with_an_intent_check_.txt",
     "url": "https://www.forwardnetworks.com/avoid-costly-inter-cloud-routing-mistakes-with-an-intent-check",
     "issues": [
-      "Possible missing comma found. → “Forward”",
       "It seems like there are too many consecutive spaces here. → “”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_bangalore_careers_overview_.txt",
@@ -209,33 +216,43 @@
     "url": "https://www.forwardnetworks.com/continuous-network-security-compliance-monitoring",
     "issues": [
       "Possible spelling mistake found. → “Visio”",
+      "Possible missing comma found. → “expected”",
       "This sentence does not start with an uppercase letter. → “and”",
       "Use a comma before “and” if it connects two independent clauses (unless they are closely connected and short). → “and”"
     ],
-    "issueCount": 3
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_customer_license_agreement_.txt",
     "url": "https://www.forwardnetworks.com/customer-license-agreement",
     "issues": [
       "File types are normally capitalized. → “pdf”",
+      "Possible missing comma found. → “and”",
       "Possible typo: you repeated a whitespace → “”",
       "Possible typo: you repeated a whitespace → “”",
       "Possible typo: you repeated a whitespace → “”",
+      "Possible missing article found. → “Customer”",
       "Possible typo: you repeated a whitespace → “”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Party”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Fee”",
       "Possible typo: you repeated a whitespace → “”",
+      "Possible missing article found. → “Customer”",
+      "Possible missing article found. → “Customer”",
       "Possible typo: you repeated a whitespace → “”",
       "Consider shortening this phrase to just ‘whether’, unless you mean ‘regardless of whether’. → “whether or not”",
       "Possible spelling mistake found. → “readme”",
+      "Possible missing article found. → “Customer”",
       "Possible typo: you repeated a whitespace → “”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Order”",
       "Possible typo: you repeated a whitespace → “”",
       "Possible typo: you repeated a whitespace → “”",
       "The modal verb ‘shall’ requires the verb’s base form. → “paid”",
+      "Possible missing article found. → “Customer”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Order”",
+      "Possible missing article found. → “Customer”",
+      "Possible missing comma found. → “Agreement”",
       "Possible typo: you repeated a whitespace → “”",
+      "Possible missing comma found. → “optional”",
       "Possible spelling mistake found. → “readme”",
       "Possible typo: you repeated a whitespace → “”",
       "Possible spelling mistake found. → “othe”",
@@ -313,7 +330,7 @@
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Exhibit”",
       "Possible typo: you repeated a whitespace → “”"
     ],
-    "issueCount": 94
+    "issueCount": 103
   },
   {
     "file": "content/www_forwardnetworks_com_cve_2024_3400_.txt",
@@ -355,9 +372,10 @@
     "url": "https://www.forwardnetworks.com/defeat-the-minibosses-of-your-network",
     "issues": [
       "Possible spelling mistake found. → “MINIBOSSES”",
+      "Possible missing preposition found. → “Overcome”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Ready”"
     ],
-    "issueCount": 2
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_demo_.txt",
@@ -486,17 +504,12 @@
       "Some style guides suggest that commas should set off the year in a month-day-year date. → “2025”",
       "Possible typo: you repeated a whitespace → “”",
       "Consider replacing this phrase with the adverb “consistently” to avoid wordiness. → “in a consistent manner”",
-      "Possible missing comma found. → “Unfortunately”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Use”",
       "It appears that hyphens are missing in the adjective “up-to-date”. → “up to date”",
       "Possible spelling mistake found. → “Twin eBook”",
-      "Possible missing comma found. → “settings”",
-      "Possible missing comma found. → “settings”",
-      "Possible missing comma found. → “settings”",
-      "Possible missing comma found. → “tools”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Ready”"
     ],
-    "issueCount": 18
+    "issueCount": 13
   },
   {
     "file": "content/www_forwardnetworks_com_forward_quest_.txt",
@@ -529,12 +542,13 @@
     "file": "content/www_forwardnetworks_com_gartner_network_digital_twins_reduce_the_risk_of_continual_software_updates_2023_free_.txt",
     "url": "https://www.forwardnetworks.com/gartner-network-digital-twins-reduce-the-risk-of-continual-software-updates-2023-free",
     "issues": [
+      "Possible missing comma found. → “internationally”",
       "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
       "Possible typo: you repeated a word. → “Netherlands\nNetherlands”",
       "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”",
       "Use a comma before ‘and’ if it connects two independent clauses (unless they are closely connected and short). → “and”"
     ],
-    "issueCount": 4
+    "issueCount": 5
   },
   {
     "file": "content/www_forwardnetworks_com_gigaom_radar_for_network_validation_.txt",
@@ -562,8 +576,13 @@
   {
     "file": "content/www_forwardnetworks_com_goldman_sachs_case_study_.txt",
     "url": "https://www.forwardnetworks.com/goldman-sachs-case-study",
-    "issues": [],
-    "issueCount": 0
+    "issues": [
+      "Possible missing article found. → “entire”",
+      "Possible missing comma found. → “but”",
+      "Possible missing comma found. → “Today”",
+      "Possible missing comma found. → “settings”"
+    ],
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_how_a_global_analytics_provider_leveraged_digital_twin_technology_to_enhance_network_efficiency_and_developer_agility_.txt",
@@ -654,13 +673,12 @@
     "file": "content/www_forwardnetworks_com_leverage_network_digital_twins_to_increase_agility_and_lower_risk_.txt",
     "url": "https://www.forwardnetworks.com/leverage-network-digital-twins-to-increase-agility-and-lower-risk",
     "issues": [
-      "Possible missing comma found. → “internationally”",
       "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
       "Possible typo: you repeated a word. → “Netherlands\nNetherlands”",
       "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”",
       "Use a comma before ‘and’ if it connects two independent clauses (unless they are closely connected and short). → “and”"
     ],
-    "issueCount": 5
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_master_services_agreement_.txt",
@@ -698,16 +716,12 @@
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Customer”",
       "Consider using “email”. → “Send an email to”",
       "This sentence does not start with an uppercase letter. → “ware”",
-      "Possible missing article found. → “number”",
-      "Possible missing article found. → “Customer”",
       "Add a space between sentences. → “Forward”",
-      "Possible missing article found. → “Customer”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Exhibit”",
-      "Possible missing article found. → “Customer”",
       "Possible typo: you repeated a whitespace → “”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Forward”"
     ],
-    "issueCount": 40
+    "issueCount": 36
   },
   {
     "file": "content/www_forwardnetworks_com_network_champion_.txt",
@@ -860,20 +874,17 @@
     "file": "content/www_forwardnetworks_com_redseal_comparison_.txt",
     "url": "https://www.forwardnetworks.com/redseal-comparison",
     "issues": [
-      "Possible missing comma found. → “insights”",
       "Possible spelling mistake found. → “NACLs”",
       "Possible spelling mistake found. → “STIGs”",
       "Possible spelling mistake found. → “REDSEAL”",
       "Possible spelling mistake found. → “fingerpointing”",
-      "Possible missing comma found. → “information”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Forward”",
-      "Possible missing comma found. → “Unfortunately”",
       "Use a comma before ‘but’ if it connects two independent clauses (unless they are closely connected and short). → “but”",
       "This word is normally spelled with a hyphen. → “error prone”",
       "Unpaired symbol: ‘”’ seems to be missing → ““”",
       "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
     ],
-    "issueCount": 12
+    "issueCount": 9
   },
   {
     "file": "content/www_forwardnetworks_com_reduce_mean_time_to_innocence_with_hop_by_hop_visibility_.txt",
@@ -907,30 +918,47 @@
     "file": "content/www_forwardnetworks_com_reseller_agreement_.txt",
     "url": "https://www.forwardnetworks.com/reseller-agreement",
     "issues": [
+      "Possible missing preposition found. → “the”",
+      "Possible missing article found. → “Reseller”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Quote”",
       "It seems like there are too many consecutive spaces here. → “”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Quote”",
       "Use a comma before “and” if it connects two independent clauses (unless they are closely connected and short). → “and”",
       "The modal verb ‘may’ requires the verb’s base form. → “deemed”",
+      "Possible missing article found. → “date”",
+      "Possible missing comma found. → “collection”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Services”",
+      "Possible missing article found. → “Reseller”",
+      "Possible missing comma found. → “Services”",
+      "Possible missing article found. → “Reseller”",
       "It seems like there are too many consecutive spaces here. → “”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Reseller”",
       "It seems like there are too many consecutive spaces here. → “”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Sanctions”",
       "It seems like there are too many consecutive spaces here. → “”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Sanctions”",
+      "Possible missing article found. → “Reseller”",
+      "Possible missing article found. → “Reseller”",
+      "Possible missing article found. → “Reseller”",
       "Unpaired symbol: ‘”’ seems to be missing → ““”",
       "Unpaired symbol: ‘“’ seems to be missing → “””",
+      "Possible missing article found. → “Reseller”",
+      "Possible missing article found. → “Reseller”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “Reseller”",
+      "Possible missing article found. → “Reseller”",
       "It seems like there are too many consecutive spaces here. → “”",
       "Unpaired symbol: ‘(’ seems to be missing → “)”",
       "Unpaired symbol: ‘(’ seems to be missing → “)”",
+      "Possible missing comma found. → “Services”",
       "It seems like there are too many consecutive spaces here. → “”",
       "This sentence does not start with an uppercase letter. → “as”",
+      "Possible missing comma found. → “software”",
       "Put a space after the comma. → “,Forward”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Claims”",
       "Possible spelling mistake found. → “nonbreaching”",
       "It seems like there are too many consecutive spaces here. → “”",
+      "Possible missing article found. → “Reseller”",
+      "Possible missing article found. → “Reseller”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Feedback”",
       "Use “nor” with neither. → “or”",
       "Possible spelling mistake found. → “Majeure”",
@@ -944,7 +972,7 @@
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “10”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “10”"
     ],
-    "issueCount": 36
+    "issueCount": 53
   },
   {
     "file": "content/www_forwardnetworks_com_resolving_key_post_merger_it_integration_challenges_with_a_digital_twin_.txt",
@@ -975,11 +1003,16 @@
     "issues": [
       "Possible typo: you repeated a word. → “ROI\nROI”",
       "Possible spelling mistake found. → “Twin ebook”",
+      "Possible missing comma found. → “network”",
       "When specifying a month and year, ‘of’ is unnecessary. → “January of 2023”",
+      "Possible missing comma found. → “issue”",
       "Use a comma before ‘so’ if it connects two independent clauses (unless they are closely connected and short). → “so”",
-      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”"
+      "Possible missing article found. → “easy”",
+      "Possible missing preposition found. → “prevent”",
+      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”",
+      "Possible missing comma found. → “process”"
     ],
-    "issueCount": 5
+    "issueCount": 10
   },
   {
     "file": "content/www_forwardnetworks_com_roi_of_a_digital_twin_ebook_.txt",
@@ -1043,10 +1076,11 @@
     "file": "content/www_forwardnetworks_com_silence_of_the_lan_.txt",
     "url": "https://www.forwardnetworks.com/silence-of-the-lan",
     "issues": [
+      "Possible missing article found. → “cloud”",
       "Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym. → “It”",
       "This phrase is duplicated. You should probably use “trailer Watch” only once. → “trailer\nWatch Trailer\nWatch”"
     ],
-    "issueCount": 2
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_software_engineer_java_network_team_bangalore_.txt",
@@ -1340,15 +1374,18 @@
     "file": "content/www_forwardnetworks_com_why_forward_.txt",
     "url": "https://www.forwardnetworks.com/why-forward",
     "issues": [
+      "Possible missing preposition found. → “THE”",
       "Possible spelling mistake found. → “SCALABILTY”",
+      "Possible missing comma found. → “settings”",
       "Possible spelling mistake found. → “whitepaper”",
       "Consider removing “of” to be more concise → “all of the”",
       "Only proper nouns start with an uppercase character (there are exceptions for headlines). → “Learn”",
+      "Possible missing comma found. → “settings”",
       "Possible spelling mistake found. → “equivilent”",
       "Unpaired symbol: ‘”’ seems to be missing → ““”",
       "Unpaired symbol: ‘\"’ seems to be missing → “\"”"
     ],
-    "issueCount": 7
+    "issueCount": 10
   },
   {
     "file": "content/www_forwardnetworks_com_zero_trust_validation_2_.txt",
