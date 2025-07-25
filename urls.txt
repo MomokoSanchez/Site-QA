@@ -28,8 +28,6 @@ https://www.forwardnetworks.com/top-5-elements-of-effective-vulnerability-manage
 https://www.forwardnetworks.com/resource-library/
 https://www.forwardnetworks.com/value-report/
 https://www.forwardnetworks.com/cisco-partner/
-https://www.forwardnetworks.com/reseller-agreement/
-https://www.forwardnetworks.com/master-services-agreement/
 https://www.forwardnetworks.com/what-is-a-digital-twin/
 https://www.forwardnetworks.com/gartner/
 https://www.forwardnetworks.com/cve-2024-3400/
@@ -89,15 +87,12 @@ https://www.forwardnetworks.com/arista-cloudvision-and-forward-networks-brief/
 https://www.forwardnetworks.com/bangalore-careers-overview/
 https://www.forwardnetworks.com/bio-based-networks-olive-branch-router/
 https://www.forwardnetworks.com/partner-portal/
-https://www.forwardnetworks.com/customer-license-agreement/
-https://www.forwardnetworks.com/privacy-policy/
 https://www.forwardnetworks.com/rsac/
 https://www.forwardnetworks.com/senior-software-engineer-team-lead-network-team-bangalore/
 https://www.forwardnetworks.com/defeat-the-minibosses-of-your-network/
 https://www.forwardnetworks.com/email-egg/
 https://www.forwardnetworks.com/end-user-license-agreement/
 https://www.forwardnetworks.com/network-champion/
-https://www.forwardnetworks.com/this-is-just-to-show-cloning-json/
 https://www.forwardnetworks.com/zoom-post-page/
 https://www.forwardnetworks.com/ccie-vs-the-network/
 https://www.forwardnetworks.com/network-guesswork/
@@ -107,5 +102,3 @@ https://www.forwardnetworks.com/tech-field-day/
 https://www.forwardnetworks.com/learn-more-about-forward-networks/
 https://www.forwardnetworks.com/intent-based-networking/
 https://www.forwardnetworks.com/internet-outage/
-https://www.forwardnetworks.com/twit/
-https://www.forwardnetworks.com/legal/
