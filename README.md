@@ -13,8 +13,10 @@ broken links and readability, and publishes a static dashboard.
 git clone <repo>
 cd site-qa
 npm install
-# set endpoint for slack (find url in Typo Bot app - https://api.slack.com/messaging/webhooks or ask Sonia)
+# set endpoint for slack (find url in Typo Bot app - https://api.slack.com/messaging/webhooks or ask Sonia) - this only work in windows cmd!
 set SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/YYY/ZZZ
+# set languagetool api key (find in languagetool account)
+set LANGUAGETOOL_API_KEY=12345689
 # crawl + checks + UI build
 npm run start
 # open dist/index.html in your browser

@@ -4,6 +4,7 @@ import path from 'node:path';
 import fetch from 'node-fetch';
 
 const MAX_LT_TEXT = 20000;
+const LANGUAGETOOL_API_KEY = process.env.LANGUAGETOOL_API_KEY;
 
 // Load ignore list if present
 const ignorePath = path.resolve('ignorelist.txt');
@@ -61,10 +62,17 @@ function chunkText(str) {
  * throw a clean Error containing the body.
  */
 async function ltCheck(text) {
-  const res = await fetch('https://api.languagetool.org/v2/check', {
+  const res = await fetch('https://api.languagetoolplus.com/v2/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ text, language: 'en-US' })
+    body: new URLSearchParams({ 
+        text, 
+        language: 'en-US', 
+        username: 'analytics@digdata.us', 
+        apiKey: LANGUAGETOOL_API_KEY,
+        enabledCategories: 'TYPOS',
+        enabledOnly: 'true'
+      })
   });
 
   if (!res.ok) {
