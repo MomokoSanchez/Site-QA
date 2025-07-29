@@ -1,9 +1,8 @@
 # Site QA Pipeline
 
-Lightweight nightly QA pipeline that crawls a website, checks for typos,
-broken links and readability, and publishes a static dashboard.
+Lightweight weekly QA pipeline that crawls a website, checks for typos and publishes a static dashboard.
 
-* **Stack**: Playwright, retext, LanguageTool, Node 20+
+* **Stack**: Playwright, retext, LanguageTool, Node 20+ (confirmed working with v24.2.0)
 * **CI**: GitHub Actions + Pages
 * **Output**: `/dist` folder served on `gh-pages` branch
 
@@ -56,7 +55,3 @@ Report written to report.json
 UI built to dist/
 
 ---
-
-Set `LANGUAGETOOL_API_URL` and `LANGUAGETOOL_API_KEY` in `.env` to use
-LanguageTool Cloud, or leave unset to hit the public endpoint
-(300‑req/day limit).
