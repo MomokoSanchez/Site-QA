@@ -20,10 +20,8 @@
   {
     "file": "content/www_forwardnetworks_com_a_simple_path_to_bod_23_1_compliance_.txt",
     "url": "https://www.forwardnetworks.com/a-simple-path-to-bod-23-1-compliance",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_about_.txt",
@@ -43,43 +41,35 @@
     "file": "content/www_forwardnetworks_com_an_intuitive_approach_to_visualizing_monitoring_and_verifying_your_multi_cloud_estate_in_a_single_pane_of_glass_.txt",
     "url": "https://www.forwardnetworks.com/an-intuitive-approach-to-visualizing-monitoring-and-verifying-your-multi-cloud-estate-in-a-single-pane-of-glass",
     "issues": [
-      "Make sure that ‘IT’ is an abbreviation for Information Technology, not a typing error. Did you mean “It”? → “IT”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Make sure that ‘IT’ is an abbreviation for Information Technology, not a typing error. Did you mean “It”? → “IT”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_arista_cloudvision_and_forward_networks_brief_.txt",
     "url": "https://www.forwardnetworks.com/arista-cloudvision-and-forward-networks-brief",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_automated_secure_application_provisioning_.txt",
     "url": "https://www.forwardnetworks.com/automated-secure-application-provisioning",
     "issues": [
-      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “self- service”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “self- service”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_automating_security_for_cloud_application_provisioning_.txt",
     "url": "https://www.forwardnetworks.com/automating-security-for-cloud-application-provisioning",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_avoid_costly_inter_cloud_routing_mistakes_with_an_intent_check_.txt",
     "url": "https://www.forwardnetworks.com/avoid-costly-inter-cloud-routing-mistakes-with-an-intent-check",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_bangalore_careers_overview_.txt",
@@ -99,10 +89,9 @@
     "file": "content/www_forwardnetworks_com_blog_.txt",
     "url": "https://www.forwardnetworks.com/blog",
     "issues": [
-      "Possible spelling mistake found. → “Infoblox”",
       "Possible spelling mistake found. → “Govies”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_cables_of_our_lives_.txt",
@@ -115,10 +104,9 @@
     "url": "https://www.forwardnetworks.com/careers",
     "issues": [
       "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- East”",
-      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- East”",
       "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- Germany”"
     ],
-    "issueCount": 3
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_ccie_vs_the_network_.txt",
@@ -176,10 +164,9 @@
       "Possible spelling mistake found. → “confg”",
       "Possible spelling mistake found. → “timeconsuming”",
       "Possible spelling mistake found. → “identifed”",
-      "Possible spelling mistake found. → “benefts”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “benefts”"
     ],
-    "issueCount": 6
+    "issueCount": 5
   },
   {
     "file": "content/www_forwardnetworks_com_darknetdiaries_.txt",
@@ -284,10 +271,8 @@
   {
     "file": "content/www_forwardnetworks_com_financial_customer_case_study_.txt",
     "url": "https://www.forwardnetworks.com/financial-customer-case-study",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_forward_enterprise_.txt",
@@ -354,10 +339,9 @@
     "url": "https://www.forwardnetworks.com/global-entertainment-company-saves-hundreds-of-it-hours-every-year-with-forward-networks",
     "issues": [
       "Did you mean “comprises” or “consists of” or “is composed of”? → “is comprised of”",
-      "Possible spelling mistake found. → “brandnew”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “brandnew”"
     ],
-    "issueCount": 3
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_goldman_sachs_case_study_.txt",
@@ -370,18 +354,15 @@
     "url": "https://www.forwardnetworks.com/how-a-global-analytics-provider-leveraged-digital-twin-technology-to-enhance-network-efficiency-and-developer-agility",
     "issues": [
       "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “always- available”",
-      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “always- accurate”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “always- accurate”"
     ],
-    "issueCount": 3
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_identify_log4shell_exposure_in_seconds_.txt",
     "url": "https://www.forwardnetworks.com/identify-log4shell-exposure-in-seconds",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_idg_research_for_network_security_.txt",
@@ -389,42 +370,33 @@
     "issues": [
       "Possible spelling mistake found. → “cyberbreaches”",
       "Possible spelling mistake found. → “zerotrust”",
-      "Possible spelling mistake found. → “cyberbreach”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “cyberbreach”"
     ],
-    "issueCount": 4
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_improve_network_operations_and_security_by_preventing_config_drift_.txt",
     "url": "https://www.forwardnetworks.com/improve-network-operations-and-security-by-preventing-config-drift",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_intent_based_networking_.txt",
     "url": "https://www.forwardnetworks.com/intent-based-networking",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_internet_outage_.txt",
     "url": "https://www.forwardnetworks.com/internet-outage",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_ipv6_readiness_verified_.txt",
     "url": "https://www.forwardnetworks.com/ipv6-readiness-verified",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_iso_27000_compliance_white_paper_.txt",
@@ -433,10 +405,9 @@
       "Possible spelling mistake found. → “WHITEPAPER”",
       "Possible spelling mistake found. → “Whitepaper”",
       "Did you mean “ongoing”? → “on-going”",
-      "Possible spelling mistake found. → “encryptors”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “encryptors”"
     ],
-    "issueCount": 5
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_learn_more_about_forward_networks_.txt",
@@ -536,10 +507,9 @@
     "file": "content/www_forwardnetworks_com_press_room_.txt",
     "url": "https://www.forwardnetworks.com/press-room",
     "issues": [
-      "Possible spelling mistake found. → “Infoblox”",
       "Possible spelling mistake found. → “Govies”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_redseal_comparison_.txt",
@@ -554,10 +524,8 @@
   {
     "file": "content/www_forwardnetworks_com_reduce_mean_time_to_innocence_with_hop_by_hop_visibility_.txt",
     "url": "https://www.forwardnetworks.com/reduce-mean-time-to-innocence-with-hop-by-hop-visibility",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_replace_your_network_map_with_a_network_model_.txt",
@@ -585,10 +553,9 @@
       "Possible spelling mistake found. → “WHITEPAPER”",
       "Possible spelling mistake found. → “Whitepaper”",
       "Make sure that ‘IT’ is an abbreviation for Information Technology, not a typing error. Did you mean “It”? → “IT”",
-      "Make sure that ‘IT’ is an abbreviation for Information Technology, not a typing error. Did you mean “It”? → “IT”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Make sure that ‘IT’ is an abbreviation for Information Technology, not a typing error. Did you mean “It”? → “IT”"
     ],
-    "issueCount": 5
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_resource_library_.txt",
@@ -596,29 +563,30 @@
     "issues": [
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Ebooks”",
-      "Possible spelling mistake found. → “Whitepapers”"
+      "Possible spelling mistake found. → “Whitepapers”",
+      "Possible spelling mistake found. → “ForwardNetworks”",
+      "Possible spelling mistake found. → “TwinTechnology”",
+      "Possible spelling mistake found. → “Lan”"
     ],
-    "issueCount": 3
+    "issueCount": 6
   },
   {
     "file": "content/www_forwardnetworks_com_roi_.txt",
     "url": "https://www.forwardnetworks.com/roi",
     "issues": [
       "Possible spelling mistake found. → “Twin ebook”",
-      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”"
     ],
-    "issueCount": 3
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_roi_of_a_digital_twin_ebook_.txt",
     "url": "https://www.forwardnetworks.com/roi-of-a-digital-twin-ebook",
     "issues": [
       "Possible spelling mistake found. → “Twin ebook”",
-      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Please check whether ‘Now’ (in this moment) might be the correct word here instead of ‘Know’ (to be aware of). → “Know”"
     ],
-    "issueCount": 3
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_rsac_.txt",
@@ -718,15 +686,13 @@
     "file": "content/www_forwardnetworks_com_technology_partners_.txt",
     "url": "https://www.forwardnetworks.com/technology-partners",
     "issues": [
-      "Possible spelling mistake found. → “Infoblox”",
-      "Possible spelling mistake found. → “Infoblox”",
-      "Possible spelling mistake found. → “Infoblox”",
-      "Possible spelling mistake found. → “NIOS”",
-      "Possible spelling mistake found. → “Infoblox”",
-      "Possible spelling mistake found. → “Infoblox”",
-      "Possible spelling mistake found. → “NIOS”"
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “BFUiU-MaCPg”",
+      "Possible spelling mistake found. → “gdpr-text”",
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”"
     ],
-    "issueCount": 7
+    "issueCount": 5
   },
   {
     "file": "content/www_forwardnetworks_com_test_drive_live_.txt",
@@ -774,10 +740,8 @@
   {
     "file": "content/www_forwardnetworks_com_understanding_the_network_with_mathematical_certainty_helps_a_global_payment_processing_company_keep_their_networksecure_and_reliable_.txt",
     "url": "https://www.forwardnetworks.com/understanding-the-network-with-mathematical-certainty-helps-a-global-payment-processing-company-keep-their-networksecure-and-reliable",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_use_a_digital_twin_for_impeccable_cyber_command_readiness_inspections_.txt",
@@ -785,26 +749,21 @@
     "issues": [
       "Possible spelling mistake found. → “WHITEPAPER”",
       "Possible spelling mistake found. → “Github”",
-      "Possible spelling mistake found. → “Nautobot”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “Nautobot”"
     ],
-    "issueCount": 4
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_use_case_blast_radius_identification_and_isolation_.txt",
     "url": "https://www.forwardnetworks.com/use-case-blast-radius-identification-and-isolation",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_using_forward_enterprise_a_journey_in_200_tickets_.txt",
     "url": "https://www.forwardnetworks.com/using-forward-enterprise-a-journey-in-200-tickets",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_value_report_.txt",
@@ -821,10 +780,8 @@
   {
     "file": "content/www_forwardnetworks_com_verify_security_policies_in_the_cloud_.txt",
     "url": "https://www.forwardnetworks.com/verify-security-policies-in-the-cloud",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_webinars_.txt",
@@ -858,10 +815,8 @@
   {
     "file": "content/www_forwardnetworks_com_zero_trust_validation_2_.txt",
     "url": "https://www.forwardnetworks.com/zero-trust-validation-2",
-    "issues": [
-      "Possible spelling mistake found. → “Infoblox”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_zone_to_zone_connectivity_matrix_.txt",
@@ -870,10 +825,9 @@
       "Possible spelling mistake found. → “interzone”",
       "Possible spelling mistake found. → “microsegmentation”",
       "Possible spelling mistake found. → “interzone”",
-      "Possible spelling mistake found. → “networkdiff”",
-      "Possible spelling mistake found. → “Infoblox”"
+      "Possible spelling mistake found. → “networkdiff”"
     ],
-    "issueCount": 5
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_zoom_post_page_.txt",
