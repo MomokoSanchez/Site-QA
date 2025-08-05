@@ -1,6 +1,7 @@
 # Site QA Pipeline
 
-Lightweight weekly QA pipeline that crawls a website, checks for typos and publishes a static dashboard.
+Lightweight weekly QA pipeline that crawls a website, checks for typos and publishes a static dashboard:
+[momokosanchez.github.io/Site-QA/](https://momokosanchez.github.io/Site-QA/)
 
 * **Stack**: Playwright, retext, LanguageTool, Node 20+ (confirmed working with v24.2.0)
 * **CI**: GitHub Actions + Pages
