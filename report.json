@@ -11,11 +11,8 @@
   {
     "file": "content/www_forwardnetworks_com_.txt",
     "url": "https://www.forwardnetworks.com",
-    "issues": [
-      "Possible spelling mistake found. → “utomation”",
-      "Possible spelling mistake found. → “ero”"
-    ],
-    "issueCount": 2
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_a_simple_path_to_bod_23_1_compliance_.txt",
@@ -26,10 +23,8 @@
   {
     "file": "content/www_forwardnetworks_com_about_.txt",
     "url": "https://www.forwardnetworks.com/about",
-    "issues": [
-      "Possible spelling mistake found. → “Libary”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_ai_.txt",
@@ -88,10 +83,8 @@
   {
     "file": "content/www_forwardnetworks_com_blog_.txt",
     "url": "https://www.forwardnetworks.com/blog",
-    "issues": [
-      "Possible spelling mistake found. → “Govies”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_cables_of_our_lives_.txt",
@@ -128,12 +121,10 @@
     "file": "content/www_forwardnetworks_com_cloud_.txt",
     "url": "https://www.forwardnetworks.com/cloud",
     "issues": [
-      "Possible spelling mistake found. → “verifyingmulti-cloud”",
-      "Possible spelling mistake found. → “verificatino”",
       "Possible spelling mistake found. → “MULTICLOUD”",
       "Possible spelling mistake found. → “Read eBook”"
     ],
-    "issueCount": 4
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_contact_.txt",
@@ -159,14 +150,8 @@
   {
     "file": "content/www_forwardnetworks_com_cve_vulnerability_and_exposure_management_2_.txt",
     "url": "https://www.forwardnetworks.com/cve-vulnerability-and-exposure-management-2",
-    "issues": [
-      "Possible spelling mistake found. → “flter”",
-      "Possible spelling mistake found. → “confg”",
-      "Possible spelling mistake found. → “timeconsuming”",
-      "Possible spelling mistake found. → “identifed”",
-      "Possible spelling mistake found. → “benefts”"
-    ],
-    "issueCount": 5
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_darknetdiaries_.txt",
@@ -278,10 +263,9 @@
     "file": "content/www_forwardnetworks_com_forward_enterprise_.txt",
     "url": "https://www.forwardnetworks.com/forward-enterprise",
     "issues": [
-      "Possible spelling mistake found. → “SCALABILTY”",
-      "Possible spelling mistake found. → “Twin ebook”"
+      "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_forward_enterprise_federal_.txt",
@@ -413,10 +397,9 @@
     "file": "content/www_forwardnetworks_com_learn_more_about_forward_networks_.txt",
     "url": "https://www.forwardnetworks.com/learn-more-about-forward-networks",
     "issues": [
-      "Possible spelling mistake found. → “SCALABILTY”",
-      "Possible spelling mistake found. → “Twin ebook”"
+      "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_leverage_network_digital_twins_to_increase_agility_and_lower_risk_.txt",
@@ -464,11 +447,9 @@
     "url": "https://www.forwardnetworks.com/network-query-engine",
     "issues": [
       "Possible spelling mistake found. → “Javascript”",
-      "Possible spelling mistake found. → “Foward”",
-      "Possible spelling mistake found. → “WHITEPAPER”",
-      "Possible spelling mistake found. → “whitepaper”"
+      "Possible spelling mistake found. → “Foward”"
     ],
-    "issueCount": 4
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_network_security_.txt",
@@ -506,10 +487,8 @@
   {
     "file": "content/www_forwardnetworks_com_press_room_.txt",
     "url": "https://www.forwardnetworks.com/press-room",
-    "issues": [
-      "Possible spelling mistake found. → “Govies”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_redseal_comparison_.txt",
@@ -531,11 +510,9 @@
     "file": "content/www_forwardnetworks_com_replace_your_network_map_with_a_network_model_.txt",
     "url": "https://www.forwardnetworks.com/replace-your-network-map-with-a-network-model",
     "issues": [
-      "Possible spelling mistake found. → “Respose”",
-      "Possible spelling mistake found. → “SCALABILTY”",
       "Possible spelling mistake found. → “eBook”"
     ],
-    "issueCount": 3
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_request_a_demo_.txt",
@@ -563,12 +540,9 @@
     "issues": [
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Ebooks”",
-      "Possible spelling mistake found. → “Whitepapers”",
-      "Possible spelling mistake found. → “ForwardNetworks”",
-      "Possible spelling mistake found. → “TwinTechnology”",
-      "Possible spelling mistake found. → “Lan”"
+      "Possible spelling mistake found. → “Whitepapers”"
     ],
-    "issueCount": 6
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_roi_.txt",
@@ -685,14 +659,8 @@
   {
     "file": "content/www_forwardnetworks_com_technology_partners_.txt",
     "url": "https://www.forwardnetworks.com/technology-partners",
-    "issues": [
-      "Possible spelling mistake found. → “ma-gdpr-youtube”",
-      "Possible spelling mistake found. → “BFUiU-MaCPg”",
-      "Possible spelling mistake found. → “gdpr-text”",
-      "Possible spelling mistake found. → “ma-gdpr-youtube”",
-      "Possible spelling mistake found. → “gdpr-text”"
-    ],
-    "issueCount": 5
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_test_drive_live_.txt",
@@ -794,13 +762,9 @@
     "url": "https://www.forwardnetworks.com/what-is-a-digital-twin",
     "issues": [
       "Possible spelling mistake found. → “Ebook”",
-      "Possible spelling mistake found. → “eBook”",
-      "Possible spelling mistake found. → “Whitepaper”",
-      "Possible spelling mistake found. → “whitepaper”",
-      "Possible spelling mistake found. → “brighttalk”",
       "Possible spelling mistake found. → “whitepaper”"
     ],
-    "issueCount": 6
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_why_forward_.txt",
