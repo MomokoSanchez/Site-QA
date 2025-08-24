@@ -11,8 +11,11 @@
   {
     "file": "content/www_forwardnetworks_com_.txt",
     "url": "https://www.forwardnetworks.com",
-    "issues": [],
-    "issueCount": 0
+    "issues": [
+      "Possible spelling mistake found. → “utomation”",
+      "Possible spelling mistake found. → “ero”"
+    ],
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_a_simple_path_to_bod_23_1_compliance_.txt",
@@ -238,11 +241,9 @@
     "url": "https://www.forwardnetworks.com/events-rsa-conference-2025",
     "issues": [
       "Possible spelling mistake found. → “cutomers”",
-      "Possible spelling mistake found. → “Dont”",
-      "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
-      "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”"
+      "Possible spelling mistake found. → “Dont”"
     ],
-    "issueCount": 4
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_examining_the_effectiveness_of_digital_twins_in_network_modeling_.txt",
@@ -271,10 +272,9 @@
     "file": "content/www_forwardnetworks_com_forward_enterprise_federal_.txt",
     "url": "https://www.forwardnetworks.com/forward-enterprise-federal",
     "issues": [
-      "Possible spelling mistake found. → “Resilliance”",
       "Possible spelling mistake found. → “Twin eBook”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_forward_quest_.txt",
@@ -446,10 +446,9 @@
     "file": "content/www_forwardnetworks_com_network_query_engine_.txt",
     "url": "https://www.forwardnetworks.com/network-query-engine",
     "issues": [
-      "Possible spelling mistake found. → “Javascript”",
       "Possible spelling mistake found. → “Foward”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_network_security_.txt",
@@ -540,9 +539,11 @@
     "issues": [
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Ebooks”",
-      "Possible spelling mistake found. → “Whitepapers”"
+      "Possible spelling mistake found. → “Whitepapers”",
+      "Possible spelling mistake found. → “missionready”",
+      "Possible spelling mistake found. → “warfghter”"
     ],
-    "issueCount": 3
+    "issueCount": 5
   },
   {
     "file": "content/www_forwardnetworks_com_roi_.txt",
@@ -567,11 +568,9 @@
     "url": "https://www.forwardnetworks.com/rsac",
     "issues": [
       "Possible spelling mistake found. → “cutomers”",
-      "Possible spelling mistake found. → “Dont”",
-      "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
-      "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”"
+      "Possible spelling mistake found. → “Dont”"
     ],
-    "issueCount": 4
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_rsvp_lunch_and_learn_.txt",
