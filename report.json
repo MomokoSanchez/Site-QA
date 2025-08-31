@@ -100,9 +100,10 @@
     "url": "https://www.forwardnetworks.com/careers",
     "issues": [
       "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- East”",
+      "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- East”",
       "This word seems to be formatted incorrectly. Consider fixing the spacing or removing the hyphen completely. → “Director- Germany”"
     ],
-    "issueCount": 2
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_ccie_vs_the_network_.txt",
@@ -214,9 +215,10 @@
     "file": "content/www_forwardnetworks_com_events_.txt",
     "url": "https://www.forwardnetworks.com/events",
     "issues": [
+      "Possible spelling mistake found. → “Sandia”",
       "Possible spelling mistake found. → “CyberSecurity”"
     ],
-    "issueCount": 1
+    "issueCount": 2
   },
   {
     "file": "content/www_forwardnetworks_com_events_black_hat_.txt",
@@ -445,10 +447,8 @@
   {
     "file": "content/www_forwardnetworks_com_network_query_engine_.txt",
     "url": "https://www.forwardnetworks.com/network-query-engine",
-    "issues": [
-      "Possible spelling mistake found. → “Foward”"
-    ],
-    "issueCount": 1
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_network_security_.txt",
@@ -540,10 +540,9 @@
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Ebooks”",
       "Possible spelling mistake found. → “Whitepapers”",
-      "Possible spelling mistake found. → “missionready”",
-      "Possible spelling mistake found. → “warfghter”"
+      "Possible spelling mistake found. → “multicloud”"
     ],
-    "issueCount": 5
+    "issueCount": 4
   },
   {
     "file": "content/www_forwardnetworks_com_roi_.txt",
@@ -650,10 +649,9 @@
     "file": "content/www_forwardnetworks_com_technology_.txt",
     "url": "https://www.forwardnetworks.com/technology",
     "issues": [
-      "Possible spelling mistake found. → “whitepaper”",
-      "Possible spelling mistake found. → “SCALABILTY”"
+      "Possible spelling mistake found. → “whitepaper”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_technology_partners_.txt",
@@ -736,13 +734,9 @@
     "file": "content/www_forwardnetworks_com_value_report_.txt",
     "url": "https://www.forwardnetworks.com/value-report",
     "issues": [
-      "Did you mean “its” (possessive pronoun) instead of ‘it’s’ (short for ‘it is’)? → “IT’s”",
-      "Possible spelling mistake found. → “inoccurrence”",
-      "Possible spelling mistake found. → “timeneeded”",
-      "Possible spelling mistake found. → “componenets”",
-      "Possible spelling mistake found. → “utlization”"
+      "Did you mean “its” (possessive pronoun) instead of ‘it’s’ (short for ‘it is’)? → “IT’s”"
     ],
-    "issueCount": 5
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_verify_security_policies_in_the_cloud_.txt",
@@ -769,11 +763,9 @@
     "file": "content/www_forwardnetworks_com_why_forward_.txt",
     "url": "https://www.forwardnetworks.com/why-forward",
     "issues": [
-      "Possible spelling mistake found. → “SCALABILTY”",
-      "Possible spelling mistake found. → “whitepaper”",
-      "Possible spelling mistake found. → “equivilent”"
+      "Possible spelling mistake found. → “whitepaper”"
     ],
-    "issueCount": 3
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_zero_trust_validation_2_.txt",
