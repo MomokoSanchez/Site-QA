@@ -215,10 +215,9 @@
     "file": "content/www_forwardnetworks_com_events_.txt",
     "url": "https://www.forwardnetworks.com/events",
     "issues": [
-      "Possible spelling mistake found. → “Sandia”",
       "Possible spelling mistake found. → “CyberSecurity”"
     ],
-    "issueCount": 2
+    "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_events_black_hat_.txt",
@@ -539,10 +538,9 @@
     "issues": [
       "Possible spelling mistake found. → “whitepapers”",
       "Possible spelling mistake found. → “Ebooks”",
-      "Possible spelling mistake found. → “Whitepapers”",
-      "Possible spelling mistake found. → “multicloud”"
+      "Possible spelling mistake found. → “Whitepapers”"
     ],
-    "issueCount": 4
+    "issueCount": 3
   },
   {
     "file": "content/www_forwardnetworks_com_roi_.txt",
