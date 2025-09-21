@@ -215,7 +215,7 @@
     "file": "content/www_forwardnetworks_com_events_.txt",
     "url": "https://www.forwardnetworks.com/events",
     "issues": [
-      "Possible spelling mistake found. → “CyberSecurity”"
+      "Possible spelling mistake found. → “AutoCon”"
     ],
     "issueCount": 1
   },
@@ -265,9 +265,19 @@
     "file": "content/www_forwardnetworks_com_forward_enterprise_.txt",
     "url": "https://www.forwardnetworks.com/forward-enterprise",
     "issues": [
-      "Possible spelling mistake found. → “Twin eBook”"
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”",
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”",
+      "Possible spelling mistake found. → “Twin eBook”",
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”",
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”",
+      "Possible spelling mistake found. → “ma-gdpr-youtube”",
+      "Possible spelling mistake found. → “gdpr-text”"
     ],
-    "issueCount": 1
+    "issueCount": 11
   },
   {
     "file": "content/www_forwardnetworks_com_forward_enterprise_federal_.txt",
@@ -301,11 +311,8 @@
   {
     "file": "content/www_forwardnetworks_com_gartner_network_digital_twins_reduce_the_risk_of_continual_software_updates_2023_free_.txt",
     "url": "https://www.forwardnetworks.com/gartner-network-digital-twins-reduce-the-risk-of-continual-software-updates-2023-free",
-    "issues": [
-      "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
-      "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”"
-    ],
-    "issueCount": 2
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_gigaom_radar_for_network_validation_.txt",
@@ -398,18 +405,15 @@
     "file": "content/www_forwardnetworks_com_learn_more_about_forward_networks_.txt",
     "url": "https://www.forwardnetworks.com/learn-more-about-forward-networks",
     "issues": [
-      "Possible spelling mistake found. → “Twin eBook”"
+      "Possible spelling mistake found. → “Respose”"
     ],
     "issueCount": 1
   },
   {
     "file": "content/www_forwardnetworks_com_leverage_network_digital_twins_to_increase_agility_and_lower_risk_.txt",
     "url": "https://www.forwardnetworks.com/leverage-network-digital-twins-to-increase-agility-and-lower-risk",
-    "issues": [
-      "‘Cote d’Ivoire’ is an imported foreign name or expression, which originally has a diacritic. → “Cote d'Ivoire”",
-      "‘Sao Tome and Principe’ is an imported foreign name or expression, which originally has a diacritic. → “Sao Tome and Principe”"
-    ],
-    "issueCount": 2
+    "issues": [],
+    "issueCount": 0
   },
   {
     "file": "content/www_forwardnetworks_com_network_champion_.txt",
